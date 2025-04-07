@@ -1,8 +1,4 @@
-*
-{
-    margin: 0;
-    padding: 0
-}
+
 
 .item
 {
@@ -17,10 +13,30 @@
 
 .container
 {
-    height: 100vh;
-    width: 30vw;
+    height: 30vh;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+
+#listas
+{
+    padding: 100px;
+}
+
+ol
+{
+    list-style: upper-roman;
+}
+
+.modificar
+{
+    list-style: lower-roman;
+}
+
+ul
+{
+    list-style: url("./img/icons8-selecionado-16.png");
 }
